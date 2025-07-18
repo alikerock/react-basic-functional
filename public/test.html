@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>React</h1>
+    <p>Single page application</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="">HTML</a></li>
+      <li><a href="">CSS</a></li>
+      <li><a href="">Javascript</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <h2>HTML</h2>
+      <p>Hypertext Markup language</p>
+    </article>
+  </main>
+  <script>
+//     let mode = this.state.mode;
+//     let welcome = this.state.welcome;
+//     let menus = this.state.menus;
+//     let selected_id = this.state.selected_id;
+
+//  const {mode, welcome, menus, selected_id} = this.state;
+
+
+    const obj = {title:'hello', desc:'world'};
+    // let mytitle = obj.title;
+    // let mydesc = obj.desc;
+    //const {title,desc} = obj; //구조 분해 할당
+    const {title:mytitle,desc:mydesc} = obj;
+    console.log(mytitle,mydesc);
+
+  </script>
+</body>
+</html>
